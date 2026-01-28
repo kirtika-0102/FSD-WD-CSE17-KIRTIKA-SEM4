@@ -1,0 +1,29 @@
+:root{
+    --col1:#F54927;
+    --col2:#248585;
+}
+body{
+    display: flex;
+    gap: 20px;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: var(--col1,yellow);
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: var(--col2);
+}
+.box3{
+    --col3:#32a881;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col3);
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: var(--col3,#619e36);   
+}

@@ -1,0 +1,28 @@
+*{
+    align-items: center;
+}
+:root{
+    --col1:#2571cf;
+    --col2:white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.box1{
+    height: 800px;
+    width: 500px;
+    background-color: var(--col1,yellow);
+}
+.box2{
+    margin-left:  20px;;
+    color:#4683cf;
+    height: 100px;
+    width: 450px;
+    background-color: var(--col2);
+}
+button{
+    color: #4683cf;
+    border-color: #4683cf;
+}

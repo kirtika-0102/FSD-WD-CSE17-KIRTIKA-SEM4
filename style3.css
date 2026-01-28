@@ -1,0 +1,72 @@
+:root{
+    --col1:#F54927;
+    --col2:#248585;
+    --col3:#cf7b46;
+    --col4:#cfb846;
+    --col5:#cf46a8;
+    --col6:#b146cf;
+    --col7:#46b8cf;
+}
+body{
+    display: flex;
+    flex-direction:row;
+    height: 700px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box1{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col1,yellow);
+}
+.box2{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col2);
+}
+.box3{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col3);
+}
+.box4{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col4,#619e36);   
+}
+.box5{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col5,#619e36);   
+}
+.box6{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col6,#619e36);   
+}
+.box7{
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: var(--col7,#619e36);   
+}
