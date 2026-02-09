@@ -9,12 +9,14 @@
 }
 body{
     display: flex;
+    
     flex-direction:row;
     height: 700px;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    
 }
 .box1{
+    flex-shrink: 1;
     text-align: center;
     align-content: center;
     font-size: 30px;
